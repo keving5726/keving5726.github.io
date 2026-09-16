@@ -1,0 +1,59 @@
+technical:
+  - title: Linux (Debian, Ubuntu)
+    level: Advance
+  - title: Docker
+    level: Advance
+  - title: Kubernetes
+    level: Intermediate
+  - title: Windows Server
+    level: Intermediate
+  - title: Networking (OpenVPN / WireGuard / pfSense / UFW)
+    level: Intermediate
+  - title: Cloud Infrastructure (AWS / Hetzner / OVHcloud / Leaseweb)
+    level: Intermediate
+  - title: Virtualization (Proxmox / VMware / Xen / LXD / Incus)
+    level: Advance
+  - title: Vagrant
+    level: Intermediate
+  - title: Docker Swarm
+    level: Intermediate
+  - title: Infrastructure as Code (Terraform)
+    level: Intermediate
+  - title: Configuration Management (Ansible)
+    level: Intermediate
+  - title: Observability & Monitoring (Grafana / Prometheus / Zabbix / Nagios)
+    level: Advance
+  - title: CI/CD (GitLab CI / GitHub Actions)
+    level: Intermediate
+  - title: Databases (MySQL / MariaDB / PostgreSQL / ProxySQL)
+    level: Intermediate
+  - title: Shell Scripting & Automation (Bash / Python)
+    level: Advance
+  - title: Scripting & Web (PHP / JavaScript / REST APIs)
+    level: Intermediate
+  - title: Backup & Disaster Recovery (Restic / Bacula / Bareos)
+    level: Advance
+  - title: Mail Servers (Zimbra / Roundcube)
+    level: Intermediate
+  - title: IT Service & Project Management (GLPI / Redmine / Nextcloud)
+    level: Advance
+
+soft:
+  - title: Leadership
+    level: Intermediate
+  - title: Problem Solving & Troubleshooting
+    level: Advance
+  - title: Cross-Functional Collaboration & Communication
+    level: Advance
+  - title: Incident Management & Root Cause Analysis (RCA)
+    level: Advance
+  - title: Adaptability & Continuous Learning
+    level: Advance
+  - title: Infrastructure Ownership & Proactive Mindset
+    level: Advance
+  - title: Technical Documentation & Knowledge Sharing
+    level: Intermediate
+  - title: Agile & DevOps Mindset (CI/CD Culture)
+    level: Intermediate
+  - title: Time Management & Task Prioritization
+    level: Intermediate
