@@ -30,7 +30,7 @@ github_username:  keving5726
 linkedin_username: keving5726
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-paginate
