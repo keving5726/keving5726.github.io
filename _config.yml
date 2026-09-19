@@ -30,7 +30,7 @@ github_username:  keving5726
 linkedin_username: keving5726
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 plugins:
   - jekyll-feed
   - jekyll-paginate
