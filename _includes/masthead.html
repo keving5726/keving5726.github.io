@@ -22,11 +22,12 @@
               >{{ link.title }}</a>
             </li>
           {%- endfor -%}
-	  <!-- light/dark theme button -->
-          <li class="masthead__menu-item theme-toggle-item">
-            <button id="theme-toggle" aria-label="Change theme light/dark theme" class="btn btn--light-outline">
-              🌙 / ☀️
-	    </button>
+          <!-- Toggle button for light and dark themes -->
+          <li class="masthead__menu-item">
+            <a href="#" id="theme-toggle" role="button" aria-label="Toggle theme (light/dark)">
+              <i class="fas fa-moon" aria-hidden="true"></i>
+              <i class="fas fa-sun" aria-hidden="true" style="display: none;"></i>
+            </a>
           </li>
         </ul>
         {% if site.search == true %}
