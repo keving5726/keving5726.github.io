@@ -1,0 +1,19 @@
+#theme-toggle {
+  // Remove default browser outlines and shadows
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+  // Custom focus indicator for keyboard navigation (only side borders)
+  &:focus-visible {
+    outline: none;
+    box-shadow: none;
+    // Add subtle side borders for keyboard accessibility
+    border-left: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    border-top: none;
+    border-bottom: none;
+  }
+}
