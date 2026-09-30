@@ -6,4 +6,4 @@ vendor
 Gemfile.lock
 
 # Vim
-.swp
+*.swp
