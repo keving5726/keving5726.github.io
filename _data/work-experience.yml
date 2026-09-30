@@ -1,0 +1,83 @@
+- job-title: DevOps Engineer
+  organization: Freelance
+  location: Caracas, Venezuela
+  location-type: Remote
+  employment-type: Freelance
+  logo: /assets/images/freelance.png
+  start-month: August
+  start-year: 2025
+  end-month: ""
+  end-year: ""
+  current: true
+  highlights:
+    - "<strong>AWS Cost Optimization:</strong> Migrated workloads from EC2 instances to AWS Graviton processors, reducing infrastructure computing spend by 20%."
+    - "<strong>Environment Standardization:</strong> Standardized local development environments using Docker Compose, eliminating configuration conflicts and reducing setup time to under 5 minutes."
+    - "<strong>High Availability & Scalability:</strong> Redesigned AWS architecture from vertical to horizontal scaling with AWS ASG and ALB, achieving zero downtime during traffic spikes."
+    - "<strong>Infrastructure as Code (IaC):</strong> Automated AWS infrastructure provisioning using Terraform modules, enabling reproducible deployments and disaster recovery plans in under 15 minutes."
+
+- job-title: "DevOps Engineer"
+  organization: "ABC Hosting Ltd"
+  location: Caracas, Venezuela
+  location-type: Remote
+  employment-type: Full-time
+  logo: /assets/images/abchosting.jpeg
+  start-month: June
+  start-year: 2022
+  end-month: August
+  end-year: 2025
+  current: false
+  highlights:
+    - "<strong>Security & Performance:</strong> Managed and optimized over 50 Linux servers, hardening security policies and boosting overall performance by 30%."
+    - "<strong>Application Deployment:</strong> Developed Ansible playbooks to standardize deployments, reducing delivery times from hours to minutes and eliminating manual errors."
+    - "<strong>Task Automation:</strong> Designed Bash scripts to automate critical preventive maintenance routines, saving significant operational hours for the team."
+    - "<strong>CI/CD Pipelines:</strong> Built GitLab CI/CD pipelines with integrated automated testing, accelerating release cycles by 20% and improving overall code quality."
+    - "<strong>Container Efficiency:</strong> Restructured Docker images for dev and prod environments, drastically reducing image size and improving deployment speed by 40%."
+
+- job-title: "Systems Administrator"
+  organization: "Empleate.com"
+  location: Caracas, Venezuela
+  location-type: On-site
+  employment-type: Full-time
+  logo: /assets/images/empleate.jpg
+  start-month: October
+  start-year: 2019
+  end-month: January
+  end-year: 2023
+  current: false
+  highlights:
+    - "<strong>Cloud Infrastructure:</strong> Managed production servers in AWS, applying architectural improvements and updates that increased operational performance by 25%."
+    - "<strong>Project Management:</strong> Deployed and managed Redmine system, increasing team project tracking and management efficiency by 30%."
+    - "<strong>Network Security:</strong> Secured tech infrastructure using pfSense, strengthening perimeter security policies and reducing network vulnerabilities by 20%."
+    - "<strong>Contingency Planning:</strong> Designed robust backup and disaster recovery strategies with Bareos, mitigating the risk of critical data loss."
+
+- job-title: "Systems Administrator"
+  organization: "IARTES"
+  location: Caracas, Venezuela
+  location-type: On-site
+  employment-type: Full-time
+  logo: /assets/images/iartes.jpg
+  start-month: October
+  start-year: 2016
+  end-month: February
+  end-year: 2019
+  current: false
+  highlights:
+    - "<strong>Virtualization:</strong> Deployed virtualization environments using Xen Project and Proxmox, optimizing hardware resource utilization and cutting operational costs by 40%."
+    - "<strong>Centralized Authentication:</strong> Integrated OpenLDAP with corporate services to centralize user identity and authentication, reducing login support tickets by 50%."
+    - "<strong>Email Management:</strong> Administered email servers using Roundcube and Postfix/Dovecot, ensuring secure and reliable internal and external communication."
+
+- job-title: "Systems Administrator"
+  organization: "UNES"
+  location: Caracas, Venezuela
+  location-type: On-site
+  employment-type: Full-time
+  logo: /assets/images/unes.png
+  start-month: September
+  start-year: 2013
+  end-month: October
+  end-year: 2016
+  current: false
+  highlights:
+    - "<strong>Infrastructure Monitoring:</strong> Implemented a comprehensive monitoring solution using Nagios, reducing failure detection and mitigation time by 70% on critical servers."
+    - "<strong>Storage & Collaboration:</strong> Installed and configured ownCloud for secure file sharing and internal collaboration, boosting data accessibility by 30%."
+    - "<strong>Backup & Recovery:</strong> Designed an automated backup solution with Bacula, reducing incident recovery time from 4 hours to 30 minutes."
