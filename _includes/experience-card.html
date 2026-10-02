@@ -1,0 +1,48 @@
+<article class="experience-card">
+  <div class="company-logo-container">
+    {% if include.job.logo %}
+      <img src="{{ include.job.logo | relative_url }}" alt="{{ include.job.organization }} logo" class="company-logo" />
+    {% else %}
+      <div class="company-logo-placeholder">
+        <span>{{ include.job.organization | slice: 0, 1 }}</span>
+      </div>
+    {% endif %}
+  </div>
+  
+  <div class="experience-content">
+    <h3 class="job-title">{{ include.job.job-title }}</h3>
+    
+    <div class="organization-info">
+      <span class="organization-name">{{ include.job.organization }}</span>
+      <span class="bullet-separator">•</span>
+      <span class="employment-type">{{ include.job.employment-type }}</span>
+    </div>
+    
+    <div class="time-info">
+      <span class="job-dates">
+        {{ site.data.months[include.job.start-month] }} {{ include.job.start-year }} –
+        {% if include.job.current or include.job.end-year == nil or include.job.end-year == "" %}
+          Present
+        {% else %}
+          {{ site.data.months[include.job.end-month] }} {{ include.job.end-year }}
+        {% endif %}
+      </span>
+      <span class="bullet-separator">•</span>
+      {% include job-duration.html job=include.job %}
+    </div>
+    
+    <div class="location-info">
+      <span class="job-location">{{ include.job.location }}</span>
+      {% if include.job.location and include.job.location-type %}
+        <span class="bullet-separator">•</span>
+        <span class="job-location-type">{{ include.job.location-type }}</span>
+      {% endif %}
+    </div>
+    
+    <ul class="job-highlights">
+      {% for item in include.job.highlights %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
