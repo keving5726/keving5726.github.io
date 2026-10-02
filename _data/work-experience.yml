@@ -4,7 +4,7 @@
   location-type: Remote
   employment-type: Freelance
   logo: "/assets/images/freelance.png"
-  start-month: August
+  start-month: 8
   start-year: 2025
   end-month: ""
   end-year: ""
@@ -21,9 +21,9 @@
   location-type: Remote
   employment-type: Full-time
   logo: /assets/images/abchosting.jpeg
-  start-month: June
+  start-month: 6
   start-year: 2022
-  end-month: August
+  end-month: 8
   end-year: 2025
   current: false
   highlights:
@@ -39,9 +39,9 @@
   location-type: On-site
   employment-type: Full-time
   logo: /assets/images/empleate.jpg
-  start-month: October
+  start-month: 10
   start-year: 2019
-  end-month: January
+  end-month: 1
   end-year: 2023
   current: false
   highlights:
@@ -56,9 +56,9 @@
   location-type: On-site
   employment-type: Full-time
   logo: /assets/images/iartes.jpg
-  start-month: October
+  start-month: 10
   start-year: 2016
-  end-month: February
+  end-month: 2
   end-year: 2019
   current: false
   highlights:
@@ -72,9 +72,9 @@
   location-type: On-site
   employment-type: Full-time
   logo: /assets/images/unes.png
-  start-month: September
+  start-month: 9
   start-year: 2013
-  end-month: October
+  end-month: 10
   end-year: 2016
   current: false
   highlights:
