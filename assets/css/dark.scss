@@ -5,5 +5,7 @@ search: false
 
 @charset "utf-8";
 
+@import "fonts";
 @import "minimal-mistakes/skins/dark"; // skin
 @import "minimal-mistakes"; // main partials
+@import "work-experience";
