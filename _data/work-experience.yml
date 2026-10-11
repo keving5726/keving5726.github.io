@@ -3,7 +3,7 @@
   location: Caracas, Venezuela
   location-type: Remote
   employment-type: Freelance
-  logo: "/assets/images/freelance.png"
+  logo: "/assets/images/work/freelance.png"
   start-month: 8
   start-year: 2025
   end-month: ""
@@ -20,7 +20,7 @@
   location: Caracas, Venezuela
   location-type: Remote
   employment-type: Full-time
-  logo: /assets/images/abchosting.jpeg
+  logo: /assets/images/work/abchosting.jpeg
   start-month: 6
   start-year: 2022
   end-month: 8
@@ -38,7 +38,7 @@
   location: Caracas, Venezuela
   location-type: On-site
   employment-type: Full-time
-  logo: /assets/images/empleate.jpg
+  logo: /assets/images/work/empleate.jpg
   start-month: 10
   start-year: 2019
   end-month: 1
@@ -55,7 +55,7 @@
   location: Caracas, Venezuela
   location-type: On-site
   employment-type: Full-time
-  logo: /assets/images/iartes.jpg
+  logo: /assets/images/work/iartes.jpg
   start-month: 10
   start-year: 2016
   end-month: 2
@@ -71,7 +71,7 @@
   location: Caracas, Venezuela
   location-type: On-site
   employment-type: Full-time
-  logo: /assets/images/unes.png
+  logo: /assets/images/work/unes.png
   start-month: 9
   start-year: 2013
   end-month: 10
