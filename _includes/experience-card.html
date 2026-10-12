@@ -13,13 +13,13 @@
     <h3 class="job-title">{{ include.job.job-title }}</h3>
     
     <div class="organization-info">
-      <span class="organization-name">{{ include.job.organization }}</span>
+      <span>{{ include.job.organization }}</span>
       <span class="bullet-separator">•</span>
       <span class="employment-type">{{ include.job.employment-type }}</span>
     </div>
     
     <div class="time-info">
-      <span class="job-dates">
+      <span>
         {{ site.data.months[include.job.start-month] }} {{ include.job.start-year }} –
         {% if include.job.current or include.job.end-year == nil or include.job.end-year == "" %}
           Present
@@ -32,10 +32,10 @@
     </div>
     
     <div class="location-info">
-      <span class="job-location">{{ include.job.location }}</span>
+      <span>{{ include.job.location }}</span>
       {% if include.job.location and include.job.location-type %}
         <span class="bullet-separator">•</span>
-        <span class="job-location-type">{{ include.job.location-type }}</span>
+        <span>{{ include.job.location-type }}</span>
       {% endif %}
     </div>
     
