@@ -8,6 +8,6 @@ Here is an overview of my professional journey, starting as a Systems Administra
 
 <section class="linkedin-experience">
   {% for job in site.data.work-experience %}
-    {% include experience-card.html job=job %}
+    {% include work-experience-card.html job=job %}
   {% endfor %}
 </section>
