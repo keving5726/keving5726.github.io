@@ -12,7 +12,7 @@ Here you will find an overview of my professional credentials, featuring officia
 
 ## Professional Certificates
 
-Official industry credentials obtained through proctored examinations.
+Verified credentials obtained through rigorous proctored examinations.
 
 ### Microsoft
 
@@ -42,12 +42,29 @@ Official industry credentials obtained through proctored examinations.
 
 Certificates of completion for specialized courses and continuous learning platforms.
 
+### Udemy
+
+<section class="cards-container">
+  {% for cert in site.data.certifications.udemy %}
+    {% include certification-card.html cert=cert %}
+  {% endfor %}
+</section>
+
+### Tutorials Dojo
+
+<section class="cards-container">
+  {% for cert in site.data.certifications.tutorialsdojo %}
+    {% include certification-card.html cert=cert %}
+  {% endfor %}
+</section>
+
 ### LinkedIn Learning
 
 #### Cloud Computing
 
 <section class="cards-container">
-  {% for cert in site.data.certifications.courses %}
+  {% assign cloud_courses = site.data.certifications.linkedin | where: "subcategory", "Cloud Computing" %}
+  {% for cert in cloud_courses %}
     {% include certification-card.html cert=cert %}
   {% endfor %}
 </section>

@@ -34,7 +34,38 @@ docker:
     credential_url: https://www.linkedin.com/learning/certificates/7b31098633bdb3843658ba4bd7d9cccfd15926cf8af12165c6dde74e1aae0a52
     skills: ["Containerization", "Docker Products"]
 
-courses:
+udemy:
+  - issuing_organization: Udemy
+    name: AWS Solutions Architect Associate Bootcamp 2026
+    logo: /assets/images/certs/udemy.svg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: UC-3413b2e0-5c10-4877-9745-672c78795399
+    credential_url: https://www.udemy.com/certificate/UC-3413b2e0-5c10-4877-9745-672c78795399/
+    skills: ["AWS", "Cloud Computing"]
+
+  - issuing_organization: Udemy
+    name: "[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 2026"
+    logo: /assets/images/certs/udemy.svg
+    issue_date:
+      month: 6
+      year: 2026
+    credential_id: UC-e39a51a1-3c08-4e07-99c2-377560a770ff
+    credential_url: https://www.udemy.com/certificate/UC-e39a51a1-3c08-4e07-99c2-377560a770ff/
+    skills: ["AWS", "Cloud Computing"]
+
+tutorialsdojo:
+  - issuing_organization: Turorials Dojo
+    name: AWS Certified Cloud Practitioner CLF-C02 Video Course 2026
+    logo: /assets/images/certs/tutorialsdojo.png
+    issue_date:
+      month: 6
+      year: 2026
+    credential_url: /assets/pdf/Tutorials-Dojo.pdf
+    skills: ["AWS", "Cloud Computing"]
+
+linkedin:
   - issuing_organization: LinkedIn Learning
     name: Learning Terraform
     logo: /assets/images/certs/linkedin.jpeg
@@ -44,3 +75,4 @@ courses:
     credential_id: 9863a5d9b9fce9c1f9642a03d459bf436f46538f02fa3499c7219eb7f8193ebe
     credential_url: https://www.linkedin.com/learning/certificates/9863a5d9b9fce9c1f9642a03d459bf436f46538f02fa3499c7219eb7f8193ebe
     skills: ["Terraform"]
+    subcategory: "Cloud Computing"
