@@ -1,0 +1,46 @@
+microsoft:
+  - issuing_organization: Microsoft
+    name: "Microsoft Certified: Azure Fundamentals"
+    logo: /assets/images/certs/microsoft.jpeg
+    issue_date:
+      month: 8
+      year: 2026
+    credential_id: E574C7D48F5157A3
+    credential_url: https://learn.microsoft.com/api/credentials/share/en-us/KevinGonzlez-3943/E574C7D48F5157A3?sharingId
+    skills: ["Microsoft Azure", "Cloud Computing"]
+
+aws:
+  - issuing_organization: Amazon Web Services (AWS)
+    name: AWS Certified Cloud Practitioner
+    logo: /assets/images/certs/aws.jpeg
+    issue_date:
+      month: 8
+      year: 2026
+    expiration_date:
+      month: 8
+      year: 2029
+    credential_id: 54035af1b76549e4bca48125c28b6fa7
+    credential_url: https://www.credly.com/badges/f20411ca-e5c2-4e2a-ad49-f3b9ed0a616d/linked_in_profile
+    skills: ["AWS", "Cloud Computing"]
+
+docker:
+  - issuing_organization: Docker, Inc
+    name: Docker Foundations Professional Certificate
+    logo: /assets/images/certs/docker.jpeg
+    issue_date:
+      month: 9
+      year: 2025
+    credential_id: 7b31098633bdb3843658ba4bd7d9cccfd15926cf8af12165c6dde74e1aae0a52
+    credential_url: https://www.linkedin.com/learning/certificates/7b31098633bdb3843658ba4bd7d9cccfd15926cf8af12165c6dde74e1aae0a52
+    skills: ["Containerization", "Docker Products"]
+
+courses:
+  - issuing_organization: LinkedIn Learning
+    name: Learning Terraform
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 9
+      year: 2025
+    credential_id: 9863a5d9b9fce9c1f9642a03d459bf436f46538f02fa3499c7219eb7f8193ebe
+    credential_url: https://www.linkedin.com/learning/certificates/9863a5d9b9fce9c1f9642a03d459bf436f46538f02fa3499c7219eb7f8193ebe
+    skills: ["Terraform"]
