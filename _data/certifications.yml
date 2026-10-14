@@ -9,6 +9,16 @@ microsoft:
     credential_url: https://learn.microsoft.com/api/credentials/share/en-us/KevinGonzlez-3943/E574C7D48F5157A3?sharingId
     skills: ["Microsoft Azure", "Cloud Computing"]
 
+  - issuing_organization: Microsoft
+    name: "Microsoft Azure Essentials Professional Certificate By Microsoft and LinkedIn"
+    logo: /assets/images/certs/microsoft.jpeg
+    issue_date:
+      month: 9
+      year: 2026
+    credential_id: ac7c0bf97302db76107060d8ccee575e5e9f5fda9f33509bebc3edfa4748134e
+    credential_url: https://www.linkedin.com/learning/certificates/ac7c0bf97302db76107060d8ccee575e5e9f5fda9f33509bebc3edfa4748134e?trk=share_certificate
+    skills: ["Microsoft Azure", "Cloud Computing"]
+
 aws:
   - issuing_organization: Amazon Web Services (AWS)
     name: AWS Certified Cloud Practitioner
