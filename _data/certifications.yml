@@ -110,6 +110,16 @@ datacamp:
 
 linkedin:
   - issuing_organization: LinkedIn Learning
+    name: Prepare for the GitHub Foundations Certification
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 9
+      year: 2026
+    credential_id: e3eafc3e4105a016d4d452b678b97057a635a63dd427dba41040dae2182438c9
+    credential_url: https://www.linkedin.com/learning/certificates/e3eafc3e4105a016d4d452b678b97057a635a63dd427dba41040dae2182438c9?trk=share_certificate
+    skills: ["GitHub", "GitHub Copilot", "Codespaces"]
+
+  - issuing_organization: LinkedIn Learning
     name: Learning Terraform
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
