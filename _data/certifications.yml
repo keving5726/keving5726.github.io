@@ -92,10 +92,21 @@ tutorialsdojo:
     name: AWS Certified Cloud Practitioner CLF-C02 Video Course 2026
     logo: /assets/images/certs/tutorialsdojo.png
     issue_date:
-      month: 6
+      month: 7
       year: 2026
     credential_url: /assets/pdf/Tutorials-Dojo.pdf
     skills: ["AWS", "Cloud Computing"]
+
+datacamp:
+  - issuing_organization: Datacamp
+    name: Associate Data Engineer in SQL
+    logo: /assets/images/certs/datacamp.jpeg
+    issue_date:
+      month: 8
+      year: 2026
+    credential_id: 062b03c97b75620c377dc9c042e76a245f61d6d3
+    credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/062b03c97b75620c377dc9c042e76a245f61d6d3?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa
+    skills: ["Data Engineering", "SQL", "Snowflake"]
 
 linkedin:
   - issuing_organization: LinkedIn Learning
