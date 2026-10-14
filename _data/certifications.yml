@@ -44,6 +44,17 @@ docker:
     credential_url: https://www.linkedin.com/learning/certificates/7b31098633bdb3843658ba4bd7d9cccfd15926cf8af12165c6dde74e1aae0a52
     skills: ["Containerization", "Docker Products"]
 
+pagerduty:
+  - issuing_organization: PagerDuty
+    name: DevOps Professional Certificate by PagerDuty and LinkedIn
+    logo: /assets/images/certs/pagerduty.jpeg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: 39ade8e0705f4e99738fe56373d8f40326c1115873238a153aedc1e15dea6559
+    credential_url: https://www.linkedin.com/learning/certificates/39ade8e0705f4e99738fe56373d8f40326c1115873238a153aedc1e15dea6559?trk=share_certificate
+    skills: ["Continuous Integration and Continuous Delivery (CI/CD)", "DevOps", "Infrastructure as Code (IaC)"]
+
 udemy:
   - issuing_organization: Udemy
     name: AWS Solutions Architect Associate Bootcamp 2026
