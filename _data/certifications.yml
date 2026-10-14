@@ -55,6 +55,17 @@ pagerduty:
     credential_url: https://www.linkedin.com/learning/certificates/39ade8e0705f4e99738fe56373d8f40326c1115873238a153aedc1e15dea6559?trk=share_certificate
     skills: ["Continuous Integration and Continuous Delivery (CI/CD)", "DevOps", "Infrastructure as Code (IaC)"]
 
+github:
+  - issuing_organization: GitHub
+    name: Career Essentials in GitHub Professional Certificate
+    logo: /assets/images/certs/github.jpeg
+    issue_date:
+      month: 9
+      year: 2026
+    credential_id: 1db383e31aa6176b0b34fa71da849c1c045b17a6055aae6733d27c0bd8652de8
+    credential_url: https://www.linkedin.com/learning/certificates/1db383e31aa6176b0b34fa71da849c1c045b17a6055aae6733d27c0bd8652de8?trk=share_certificate
+    skills: ["GitHub"]
+
 udemy:
   - issuing_organization: Udemy
     name: AWS Solutions Architect Associate Bootcamp 2026
