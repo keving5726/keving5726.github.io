@@ -180,3 +180,13 @@ linkedin:
     credential_url: https://www.linkedin.com/learning/certificates/9863a5d9b9fce9c1f9642a03d459bf436f46538f02fa3499c7219eb7f8193ebe
     skills: ["Terraform"]
     subcategory: "Cloud Computing"
+
+  - issuing_organization: LinkedIn Learning
+    name: Learning Ansible
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 9
+      year: 2025
+    credential_id: cd6e05b79bfe448ba6e81a98e327033650fcb59e65b5bd057e756fbce0de4edc
+    credential_url: https://www.linkedin.com/learning/certificates/cd6e05b79bfe448ba6e81a98e327033650fcb59e65b5bd057e756fbce0de4edc?trk=share_certificate
+    skills: ["Ansible", "Configuration Management"]
