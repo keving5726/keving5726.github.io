@@ -141,6 +141,25 @@ linkedin:
     skills: ["Kubernetes"]
 
   - issuing_organization: LinkedIn Learning
+    name: "AWS Certified Solutions Architect - Associate (SAA-C03) Cert Prep"
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: 1bc5a5f066398256b43cbaacb23d1d385c20b88871152a44b9ebfa3a7f3265f8
+    credential_url: https://www.linkedin.com/learning/certificates/1bc5a5f066398256b43cbaacb23d1d385c20b88871152a44b9ebfa3a7f3265f8?trk=share_certificate
+    skills: ["Cloud Services", "Amazon Web Services (AWS)", "Cloud-Native Architecture"]
+
+  - issuing_organization: LinkedIn Learning
+    name: "AWS Certified AI Practitioner (AIF-C01) Cert Prep"
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: bf7dccd57285558c8e8c81e73b2118ae6414d4f3020d180cc555ceed1da839db
+    credential_url: https://www.linkedin.com/learning/certificates/bf7dccd57285558c8e8c81e73b2118ae6414d4f3020d180cc555ceed1da839db?trk=share_certificate
+    skills: ["Artificial Intelligence (AI)", "Generative AI", "Amazon Web Services (AWS)"]
+  - issuing_organization: LinkedIn Learning
     name: Learning Terraform
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
