@@ -229,3 +229,23 @@ linkedin:
     credential_id: fdbf41e974541c94739b6af5c6b9f935e8da5cfcddad0451a5305b770b4ecf30
     credential_url: https://www.linkedin.com/learning/certificates/fdbf41e974541c94739b6af5c6b9f935e8da5cfcddad0451a5305b770b4ecf30?trk=share_certificate
     skills: ["Cisco Routers", "Network Security", "Cisco IOS"]
+
+  - issuing_organization: LinkedIn Learning
+    name: Kubernetes and Cloud Native Associate (KCNA)
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 9
+      year: 2026
+    credential_id: 6d699bea0ff69ee1f303a8e475a4ac5061f7018da10a841469827e6a686ae507
+    credential_url: https://www.linkedin.com/learning/certificates/d03295537ed6d24c610907467c4074eae01e30ad376644485126fa19dad7332a?trk=share_certificate
+    skills: ["Kubernetes"]
+
+  - issuing_organization: LinkedIn Learning
+    name: Kubernetes and Cloud Native Security Associate (KCSA)
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 9
+      year: 2026
+    credential_id: d03295537ed6d24c610907467c4074eae01e30ad376644485126fa19dad7332a
+    credential_url: https://www.linkedin.com/learning/certificates/d03295537ed6d24c610907467c4074eae01e30ad376644485126fa19dad7332a?trk=share_certificate
+    skills: ["Kubernetes", "DevSecOps", "Cloud Security"]
