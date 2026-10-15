@@ -1,7 +1,7 @@
 $shadow-card: 0 4px 12px rgba(0, 0, 0, 0.03);
 $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
 
-.linkedin-experience {
+.cards-container {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -9,7 +9,7 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
   margin: 2rem auto;
 }
 
-.experience-card {
+.info-card {
   display: flex;
   gap: 1.25rem;
   border: 1px solid $border-color;
@@ -30,10 +30,10 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
   }
 }
 
-.company-logo-container {
+.card-media-container {
   flex-shrink: 0;
 
-  .company-logo {
+  .card-media {
     width: 56px;
     height: 56px;
     object-fit: contain;
@@ -44,7 +44,7 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
     display: block;
   }
 
-  .company-logo-placeholder {
+  .card-media-placeholder {
     width: 56px;
     height: 56px;
     border-radius: 8px;
@@ -59,20 +59,23 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
   }
 }
 
-.experience-content {
+.card-content {
   flex-grow: 1;
+  min-width: 0;
 
-  .job-title {
+  .card-title {
     margin: 0 0 0.25rem 0;
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.3;
     color: $text-color;
+    overflow-wrap: break-word;
   }
 
   .organization-info,
   .time-info,
-  .location-info {
+  .location-info,
+  .credential-id {
     font-size: 0.9rem;
     line-height: 1.4;
     display: flex;
@@ -86,26 +89,28 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
     font-weight: 600;
     color: $text-color;
 
-    .employment-type {
+    .subtitle-type {
       font-weight: 400;
     }
-  }
-
-  .time-location-info {
-    margin-top: 0.15rem;
-    margin-bottom: 0.85rem;
   }
 
   .bullet-separator {
     font-size: 0.8rem;
   }
 
-  .job-highlights {
+  .credential-id span {
+    word-break: break-all;
+    overflow-wrap: break-word;
+    min-width: 0;
+  }
+
+  .card-details {
     margin: 0;
     padding-left: 1.1rem;
     font-size: 0.925rem;
     line-height: 1.5;
     color: $text-color;
+    overflow-wrap: break-word;
 
     li {
       margin-bottom: 0.5rem;
@@ -113,6 +118,67 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
       &:last-child {
         margin-bottom: 0;
       }
+    }
+  }
+
+  @keyframes subtle-pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+      transform: scale(1.03);
+      box-shadow: 0 4px 10px rgba($primary-color, 0.35);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .verify-action {
+    margin-top: 1rem;
+
+    .verify-credential-link {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #fff;
+      background-color: $primary-color;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+
+      animation: subtle-pulse 3s infinite ease-in-out;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        animation-play-state: paused;
+        transform: scale(1.05);
+        text-decoration: none;
+        background-color: darken($primary-color, 8%);
+      }
+
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  }
+
+  .skills-container {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+
+    .skill-tag {
+      font-size: 0.8rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 500;
+      border: 1px solid $border-color;
     }
   }
 }

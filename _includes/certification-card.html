@@ -1,0 +1,52 @@
+<article class="info-card">
+  <div class="card-media-container">
+    {% if include.cert.logo %}
+      <img src="{{ include.cert.logo | relative_url }}" alt="{{ include.cert.issuing_organization }} logo" class="card-media" />
+    {% else %}
+      <div class="card-media-placeholder">
+        <span>{{ include.cert.issuing_organization | slice: 0, 1 }}</span>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="card-content">
+    <h3 class="card-title">{{ include.cert.name }}</h3>
+
+    <div class="organization-info">
+      <span>{{ include.cert.issuing_organization }}</span>
+    </div>
+
+    <div class="time-info">
+      <span>
+        Issued: {{ site.data.months[include.cert.issue_date.month] }} {{ include.cert.issue_date.year }}
+        {% if include.cert.expiration_date %}
+          <span class="bullet-separator">•</span> 
+          Expires: {{ site.data.months[include.cert.expiration_date.month] }} {{ include.cert.expiration_date.year }}
+        {% endif %}
+      </span>
+    </div>
+
+    {% if include.cert.credential_id %}
+      <div class="credential-id">
+        <span>Credential ID: {{ include.cert.credential_id }}</span>
+      </div>
+    {% endif %}
+
+    {% if include.cert.credential_url %}
+      <div class="verify-action">
+        <a href="{{ include.cert.credential_url }}" target="_blank" rel="noopener" class="verify-credential-link">
+          Show credential <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+        </a>
+      </div>
+
+    {% endif %}
+
+    {% if include.cert.skills %}
+      <div class="skills-container">
+        {% for skill in include.cert.skills %}
+          <span class="skill-tag">{{ skill }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>

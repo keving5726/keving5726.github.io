@@ -8,4 +8,7 @@ search: false
 @import "fonts";
 @import "minimal-mistakes/skins/dark"; // skin
 @import "minimal-mistakes"; // main partials
-@import "work-experience";
+
+$muted-text-color: $light-gray;
+
+@import "cards";
