@@ -190,3 +190,13 @@ linkedin:
     credential_id: cd6e05b79bfe448ba6e81a98e327033650fcb59e65b5bd057e756fbce0de4edc
     credential_url: https://www.linkedin.com/learning/certificates/cd6e05b79bfe448ba6e81a98e327033650fcb59e65b5bd057e756fbce0de4edc?trk=share_certificate
     skills: ["Ansible", "Configuration Management"]
+
+  - issuing_organization: LinkedIn Learning
+    name: Google Cloud Digital Leader Cert Prep
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: 55506821635c91fc767fe77437e4cf7a221c7f3887d8c59f7fedd0e79afe5a12
+    credential_url: https://www.linkedin.com/learning/certificates/55506821635c91fc767fe77437e4cf7a221c7f3887d8c59f7fedd0e79afe5a12?trk=share_certificate
+    skills: ["Digital Transformation", "Google Cloud Platform (GCP)"]
