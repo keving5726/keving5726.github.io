@@ -120,6 +120,17 @@ linkedin:
     skills: ["GitHub", "GitHub Copilot", "Codespaces"]
 
   - issuing_organization: LinkedIn Learning
+    name: Getting Started with DevOps
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 9
+      year: 2026
+    credential_id: 394e8b4b75e58501b9367a9e1d7e1bc0211f5f60ba13e05995d2a77aebb46c26
+    credential_url: https://www.linkedin.com/learning/certificates/394e8b4b75e58501b9367a9e1d
+7e1bc0211f5f60ba13e05995d2a77aebb46c26?trk=share_certificate
+    skills: ["DevOps"]
+
+  - issuing_organization: LinkedIn Learning
     name: Learning Terraform
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
