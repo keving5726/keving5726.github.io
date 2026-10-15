@@ -10,7 +10,7 @@ microsoft:
     skills: ["Microsoft Azure", "Cloud Computing"]
 
   - issuing_organization: Microsoft
-    name: "Microsoft Azure Essentials Professional Certificate By Microsoft and LinkedIn"
+    name: Microsoft Azure Essentials Professional Certificate By Microsoft and LinkedIn
     logo: /assets/images/certs/microsoft.jpeg
     issue_date:
       month: 9
@@ -126,8 +126,7 @@ linkedin:
       month: 9
       year: 2026
     credential_id: 394e8b4b75e58501b9367a9e1d7e1bc0211f5f60ba13e05995d2a77aebb46c26
-    credential_url: https://www.linkedin.com/learning/certificates/394e8b4b75e58501b9367a9e1d
-7e1bc0211f5f60ba13e05995d2a77aebb46c26?trk=share_certificate
+    credential_url: https://www.linkedin.com/learning/certificates/394e8b4b75e58501b9367a9e1d7e1bc0211f5f60ba13e05995d2a77aebb46c26?trk=share_certificate
     skills: ["DevOps"]
 
   - issuing_organization: LinkedIn Learning
@@ -141,7 +140,7 @@ linkedin:
     skills: ["Kubernetes"]
 
   - issuing_organization: LinkedIn Learning
-    name: "AWS Certified Solutions Architect - Associate (SAA-C03) Cert Prep"
+    name: AWS Certified Solutions Architect - Associate (SAA-C03) Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 10
@@ -151,7 +150,7 @@ linkedin:
     skills: ["Cloud Services", "Amazon Web Services (AWS)", "Cloud-Native Architecture"]
 
   - issuing_organization: LinkedIn Learning
-    name: "AWS Certified AI Practitioner (AIF-C01) Cert Prep"
+    name: AWS Certified AI Practitioner (AIF-C01) Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 10
@@ -161,7 +160,7 @@ linkedin:
     skills: ["Artificial Intelligence (AI)", "Generative AI", "Amazon Web Services (AWS)"]
 
   - issuing_organization: LinkedIn Learning
-    name: "Docker Essential Training"
+    name: Docker Essential Training
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -210,3 +209,23 @@ linkedin:
     credential_id: 4a3f08723dbf4dbaf0a0330f79906a94a1a5ace2fda8d3be109be2cccc129c5c
     credential_url: https://www.linkedin.com/learning/certificates/4a3f08723dbf4dbaf0a0330f79906a94a1a5ace2fda8d3be109be2cccc129c5c?trk=share_certificate
     skills: ["Linux", "Network Administration"]
+
+  - issuing_organization: LinkedIn Learning
+    name: Cisco Certified Support Technician (CCST) Networking (100-150) Cert Prep
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 9
+      year: 2026
+    credential_id: a45af80c20837f26778045d3c9bb12e0f80282fd4fa5b05ab3f8740d93a0db71
+    credential_url: https://www.linkedin.com/learning/certificates/a45af80c20837f26778045d3c9bb12e0f80282fd4fa5b05ab3f8740d93a0db71?trk=share_certificate
+    skills: ["Network Administration", "Cisco Networking"]
+
+  - issuing_organization: LinkedIn Learning
+    name: Cisco Certified Network Associate (CCNA) v1.1 (200-301) Cert Prep
+    logo: /assets/images/certs/linkedin.jpeg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: fdbf41e974541c94739b6af5c6b9f935e8da5cfcddad0451a5305b770b4ecf30
+    credential_url: https://www.linkedin.com/learning/certificates/fdbf41e974541c94739b6af5c6b9f935e8da5cfcddad0451a5305b770b4ecf30?trk=share_certificate
+    skills: ["Cisco Routers", "Network Security", "Cisco IOS"]
