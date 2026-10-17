@@ -1,0 +1,11 @@
+- school: Universidad Alejandro de Humboldt
+  logo: /assets/images/education/uah.jpeg
+  degree: Engineer's degree
+  field: Information Technology
+  website: https://www.unihumboldt.edu.ve/
+  start_date:
+    month: 1
+    year: 2015
+  end_date:
+    month: 12
+    year: 2019
