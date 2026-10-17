@@ -1,0 +1,37 @@
+<article class="info-card">
+  <div class="card-media-container">
+    {% if include.edu.logo %}
+      <img src="{{ include.edu.logo | relative_url }}" alt="{{ include.edu.school }} logo" class="card-media" />
+    {% else %}
+      <div class="card-media-placeholder">
+        <span>{{ include.edu.school | slice: 0, 1 }}</span>
+      </div>
+    {% endif %}
+  </div>
+  
+  <div class="card-content">
+    <h3 class="card-title">{{ include.edu.school }}</h3>
+    
+    <div class="organization-info">
+      <span>
+        {{ include.edu.degree }} ,
+        {{ include.edu.field }}
+      </span>
+    </div>
+    
+    <div class="time-info">
+      <span>
+        {{ site.data.months[include.edu.start_date.month] }} {{ include.edu.start_date.year }} –
+        {{ site.data.months[include.edu.end_date.month] }} {{ include.edu.end_date.year }}
+      </span>
+    </div>
+
+    {% if include.edu.website %}
+      <div class="verify-action">
+        <a href="{{ include.edu.website }}" target="_blank" rel="noopener" class="verify-credential-link">
+          Visit website <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</article>
