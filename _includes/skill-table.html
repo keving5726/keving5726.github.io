@@ -2,16 +2,16 @@
   <table class="skills-table">
     <thead>
       <tr>
-        <th class="col-tech">Name</th>
-        <th class="col-level">Level</th>
+        <th>Name</th>
+        <th>Level</th>
       </tr>
     </thead>
     <tbody>
       {% assign items = include.skill.skills | default: include.skill %}
       {% for item in items %}
         <tr>
-          <td class="tech-cell">{{ item.name }}</td>
-          <td class="level-cell">
+          <td>{{ item.name }}</td>
+          <td>
             <span class="skill-level {{ item.level | downcase }}">{{ item.level }}</span>
           </td>
         </tr>
