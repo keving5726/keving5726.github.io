@@ -4,7 +4,7 @@ title: Skills
 permalink: /skills/
 toc: true
 toc_label: My skills
-toc_icon: award
+toc_icon: server
 toc_sticky: true
 ---
 
