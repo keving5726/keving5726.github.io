@@ -108,6 +108,16 @@ datacamp:
     credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/062b03c97b75620c377dc9c042e76a245f61d6d3?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa
     skills: ["Data Engineering", "SQL", "Snowflake"]
 
+  - issuing_organization: Datacamp
+    name: SQL Fundamentals
+    logo: /assets/images/certs/datacamp.jpeg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: 1d82144ab051823675a738f4b47c21ada775cdb4
+    credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/1d82144ab051823675a738f4b47c21ada775cdb4
+    skills: ["SQL", "PosgreSQL"]
+
 linkedin:
   - issuing_organization: LinkedIn Learning
     name: Google Cloud Digital Leader Cert Prep

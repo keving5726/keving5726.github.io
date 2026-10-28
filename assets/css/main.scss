@@ -10,5 +10,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 $muted-text-color: $dark-gray;
+$skill-hover: $lighter-gray;
 
 @import "cards";
+@import "skills-table";
