@@ -1,0 +1,43 @@
+table {
+  font-size: $type-size-5;
+
+  tbody tr:hover {
+    background-color: $skill-hover;
+  }
+}
+
+thead {
+  background-color: $primary-color;
+  border-bottom: none;
+}
+
+th {
+  color: #fff;
+}
+
+.skill-level {
+  display: inline-block;
+  font-size: $type-size-6;
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  border-radius: $border-radius;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+
+  &.advanced,
+  &.native {
+    background-color: #dafbe1;
+    color: #116329;
+  }
+
+  &.intermediate {
+    background-color: #ddf4ff;
+    color: #0969da;
+  }
+
+  &.basic {
+    background-color: #fff8c5;
+    color: #7a4100;
+  }
+}
