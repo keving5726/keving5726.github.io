@@ -128,6 +128,16 @@ datacamp:
     credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/94a98a49441ad21a4b69e141d1495dc25978a0c0
     skills: ["SQL", "PosgreSQL"]
 
+  - issuing_organization: Datacamp
+    name: SQL Associate
+    logo: /assets/images/certs/datacamp.jpeg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: SQA0011388528030
+    credential_url: https://www.datacamp.com/certificate/SQA0011388528030
+    skills: ["SQL", "PosgreSQL"]
+
 linkedin:
   - issuing_organization: LinkedIn Learning
     name: Google Cloud Digital Leader Cert Prep
