@@ -14,18 +14,18 @@ Here you will find an overview of my professional credentials, featuring officia
 
 Verified credentials obtained through rigorous proctored examinations.
 
-### Microsoft
-
-<section class="cards-container">
-  {% for cert in site.data.certifications.microsoft %}
-    {% include certification-card.html cert=cert %}
-  {% endfor %}
-</section>
-
 ### Amazon Web Services (AWS)
 
 <section class="cards-container">
   {% for cert in site.data.certifications.aws %}
+    {% include certification-card.html cert=cert %}
+  {% endfor %}
+</section>
+
+### Microsoft
+
+<section class="cards-container">
+  {% for cert in site.data.certifications.microsoft %}
     {% include certification-card.html cert=cert %}
   {% endfor %}
 </section>
