@@ -105,7 +105,7 @@ datacamp:
       month: 8
       year: 2026
     credential_id: 062b03c97b75620c377dc9c042e76a245f61d6d3
-    credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/062b03c97b75620c377dc9c042e76a245f61d6d3?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=soa
+    credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/062b03c97b75620c377dc9c042e76a245f61d6d3
     skills: ["Data Engineering", "SQL", "Snowflake"]
 
   - issuing_organization: Datacamp
