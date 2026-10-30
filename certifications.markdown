@@ -46,6 +46,14 @@ Verified credentials obtained through rigorous proctored examinations.
   {% endfor %}
 </section>
 
+### Datacamp
+
+<section class="cards-container">
+  {% for cert in site.data.certifications.datacamp_professional %}
+    {% include certification-card.html cert=cert %}
+  {% endfor %}
+</section>
+
 ### GitHub
 
 <section class="cards-container">
@@ -77,7 +85,7 @@ Certificates of completion for specialized courses and continuous learning platf
 ### Datacamp
 
 <section class="cards-container">
-  {% for cert in site.data.certifications.datacamp %}
+  {% for cert in site.data.certifications.datacamp_completion %}
     {% include certification-card.html cert=cert %}
   {% endfor %}
 </section>

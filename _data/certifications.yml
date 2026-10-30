@@ -97,7 +97,18 @@ tutorialsdojo:
     credential_url: /assets/pdf/Tutorials-Dojo.pdf
     skills: ["AWS", "Cloud Computing"]
 
-datacamp:
+datacamp_professional:
+  - issuing_organization: Datacamp
+    name: SQL Associate
+    logo: /assets/images/certs/datacamp.jpeg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: SQA0011388528030
+    credential_url: https://www.datacamp.com/certificate/SQA0011388528030
+    skills: ["SQL", "PosgreSQL"]
+
+datacamp_completion:
   - issuing_organization: Datacamp
     name: Associate Data Engineer in SQL
     logo: /assets/images/certs/datacamp.jpeg
@@ -126,16 +137,6 @@ datacamp:
       year: 2026
     credential_id: 94a98a49441ad21a4b69e141d1495dc25978a0c0
     credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/94a98a49441ad21a4b69e141d1495dc25978a0c0
-    skills: ["SQL", "PosgreSQL"]
-
-  - issuing_organization: Datacamp
-    name: SQL Associate
-    logo: /assets/images/certs/datacamp.jpeg
-    issue_date:
-      month: 10
-      year: 2026
-    credential_id: SQA0011388528030
-    credential_url: https://www.datacamp.com/certificate/SQA0011388528030
     skills: ["SQL", "PosgreSQL"]
 
 linkedin:
