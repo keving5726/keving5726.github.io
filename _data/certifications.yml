@@ -118,6 +118,16 @@ datacamp:
     credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/1d82144ab051823675a738f4b47c21ada775cdb4
     skills: ["SQL", "PosgreSQL"]
 
+  - issuing_organization: Datacamp
+    name: SQL for Database Administrators
+    logo: /assets/images/certs/datacamp.jpeg
+    issue_date:
+      month: 10
+      year: 2026
+    credential_id: 94a98a49441ad21a4b69e141d1495dc25978a0c0
+    credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/94a98a49441ad21a4b69e141d1495dc25978a0c0
+    skills: ["SQL", "PosgreSQL"]
+
 linkedin:
   - issuing_organization: LinkedIn Learning
     name: Google Cloud Digital Leader Cert Prep
