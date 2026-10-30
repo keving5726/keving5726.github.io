@@ -106,7 +106,7 @@ datacamp_professional:
       year: 2026
     credential_id: SQA0011388528030
     credential_url: https://www.datacamp.com/certificate/SQA0011388528030
-    skills: ["SQL", "PosgreSQL"]
+    skills: ["SQL", "PostgreSQL"]
 
 datacamp_completion:
   - issuing_organization: Datacamp
@@ -127,7 +127,7 @@ datacamp_completion:
       year: 2026
     credential_id: 1d82144ab051823675a738f4b47c21ada775cdb4
     credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/1d82144ab051823675a738f4b47c21ada775cdb4
-    skills: ["SQL", "PosgreSQL"]
+    skills: ["SQL", "PostgreSQL"]
 
   - issuing_organization: Datacamp
     name: SQL for Database Administrators
@@ -137,7 +137,7 @@ datacamp_completion:
       year: 2026
     credential_id: 94a98a49441ad21a4b69e141d1495dc25978a0c0
     credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/94a98a49441ad21a4b69e141d1495dc25978a0c0
-    skills: ["SQL", "PosgreSQL"]
+    skills: ["SQL", "PostgreSQL"]
 
 linkedin:
   - issuing_organization: LinkedIn Learning
