@@ -12,16 +12,17 @@
   <div class="card-content">
     <h3 class="card-title">{{ include.edu.school }}</h3>
     
-    <div class="organization-info">
-      <span>
-        {{ include.edu.degree }} ,
-        {{ include.edu.field }}
-      </span>
+    <div class="degree-info">
+      <span>{{ include.edu.degree }}</span>
     </div>
-    
+
+    <div class="field-info">
+      <span>{{ include.edu.field }}</span>
+    </div>
+
     <div class="time-info">
       <span>
-        {{ site.data.months[include.edu.start_date.month] }} {{ include.edu.start_date.year }} –
+        {{ site.data.months[include.edu.start_date.month] }} {{ include.edu.start_date.year }} &ndash;
         {{ site.data.months[include.edu.end_date.month] }} {{ include.edu.end_date.year }}
       </span>
     </div>

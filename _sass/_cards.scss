@@ -53,8 +53,8 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: $type-size-3;
+    font-weight: bold;
     text-transform: uppercase;
   }
 }
@@ -65,8 +65,7 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
 
   .card-title {
     margin: 0 0 0.25rem 0;
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 1.3;
     color: $text-color;
     overflow-wrap: break-word;
@@ -75,8 +74,10 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
   .organization-info,
   .time-info,
   .location-info,
+  .degree-info,
+  .field-info,
   .credential-id {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     line-height: 1.4;
     display: flex;
     align-items: center;
@@ -85,17 +86,14 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
     color: $muted-text-color;
   }
 
-  .organization-info {
-    font-weight: 600;
+  .organization-info,
+  .degree-info {
+    font-weight: bold;
     color: $text-color;
 
     .subtitle-type {
-      font-weight: 400;
+      font-weight: normal;
     }
-  }
-
-  .bullet-separator {
-    font-size: 0.8rem;
   }
 
   .credential-id span {
@@ -140,12 +138,12 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
     margin-top: 1rem;
 
     .verify-credential-link {
-      font-size: 0.875rem;
-      font-weight: 600;
+      font-size: 0.85rem;
+      font-weight: bold;
       color: #fff;
       background-color: $primary-color;
       padding: 0.5rem 1rem;
-      border-radius: 4px;
+      border-radius: 32px;
       text-decoration: none;
       display: inline-flex;
       align-items: center;
@@ -177,7 +175,6 @@ $shadow-hover: 0 10px 20px rgba(0, 0, 0, 0.08);
       font-size: 0.8rem;
       padding: 0.2rem 0.5rem;
       border-radius: 4px;
-      font-weight: 500;
       border: 1px solid $border-color;
     }
   }

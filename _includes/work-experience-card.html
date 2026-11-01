@@ -13,29 +13,26 @@
     <h3 class="card-title">{{ include.job.job-title }}</h3>
     
     <div class="organization-info">
-      <span>{{ include.job.organization }}</span>
-      <span class="bullet-separator">•</span>
+      <span>{{ include.job.organization }} &bull;</span>
       <span class="subtitle-type">{{ include.job.employment-type }}</span>
     </div>
     
     <div class="time-info">
       <span>
-        {{ site.data.months[include.job.start-month] }} {{ include.job.start-year }} –
+        {{ site.data.months[include.job.start-month] }} {{ include.job.start-year }} &ndash;
         {% if include.job.current or include.job.end-year == nil or include.job.end-year == "" %}
-          Present
+          Present &bull;
         {% else %}
-          {{ site.data.months[include.job.end-month] }} {{ include.job.end-year }}
+          {{ site.data.months[include.job.end-month] }} {{ include.job.end-year }} &bull;
         {% endif %}
       </span>
-      <span class="bullet-separator">•</span>
       {% include job-duration.html job=include.job %}
     </div>
     
     <div class="location-info">
       <span>{{ include.job.location }}</span>
       {% if include.job.location and include.job.location-type %}
-        <span class="bullet-separator">•</span>
-        <span>{{ include.job.location-type }}</span>
+        <span>&bull; {{ include.job.location-type }}</span>
       {% endif %}
     </div>
     

@@ -12,10 +12,6 @@
   <div class="card-content">
     <h3 class="card-title">{{ include.cert.name }}</h3>
 
-    <div class="organization-info">
-      <span>{{ include.cert.issuing_organization }}</span>
-    </div>
-
     <div class="time-info">
       <span>
         Issued: {{ site.data.months[include.cert.issue_date.month] }} {{ include.cert.issue_date.year }}
@@ -32,20 +28,19 @@
       </div>
     {% endif %}
 
-    {% if include.cert.credential_url %}
-      <div class="verify-action">
-        <a href="{{ include.cert.credential_url }}" target="_blank" rel="noopener" class="verify-credential-link">
-          Show credential <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-        </a>
-      </div>
-
-    {% endif %}
-
     {% if include.cert.skills %}
       <div class="skills-container">
         {% for skill in include.cert.skills %}
           <span class="skill-tag">{{ skill }}</span>
         {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if include.cert.credential_url %}
+      <div class="verify-action">
+        <a href="{{ include.cert.credential_url }}" target="_blank" rel="noopener" class="verify-credential-link">
+          Show credential <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+        </a>
       </div>
     {% endif %}
   </div>
