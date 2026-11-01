@@ -1,6 +1,5 @@
 microsoft:
-  - issuing_organization: Microsoft
-    name: "Microsoft Certified: Azure Fundamentals"
+  - name: "Microsoft Certified: Azure Fundamentals"
     logo: /assets/images/certs/microsoft.jpeg
     issue_date:
       month: 8
@@ -9,8 +8,7 @@ microsoft:
     credential_url: https://learn.microsoft.com/api/credentials/share/en-us/KevinGonzlez-3943/E574C7D48F5157A3?sharingId
     skills: ["Microsoft Azure", "Cloud Computing"]
 
-  - issuing_organization: Microsoft
-    name: Microsoft Azure Essentials Professional Certificate By Microsoft and LinkedIn
+  - name: Microsoft Azure Essentials Professional Certificate By Microsoft and LinkedIn
     logo: /assets/images/certs/microsoft.jpeg
     issue_date:
       month: 9
@@ -20,8 +18,7 @@ microsoft:
     skills: ["Microsoft Azure", "Cloud Computing"]
 
 aws:
-  - issuing_organization: Amazon Web Services (AWS)
-    name: AWS Certified Cloud Practitioner
+  - name: AWS Certified Cloud Practitioner
     logo: /assets/images/certs/aws.jpeg
     issue_date:
       month: 8
@@ -34,8 +31,7 @@ aws:
     skills: ["AWS", "Cloud Computing"]
 
 docker:
-  - issuing_organization: Docker, Inc
-    name: Docker Foundations Professional Certificate
+  - name: Docker Foundations Professional Certificate
     logo: /assets/images/certs/docker.jpeg
     issue_date:
       month: 9
@@ -45,8 +41,7 @@ docker:
     skills: ["Containerization", "Docker Products"]
 
 pagerduty:
-  - issuing_organization: PagerDuty
-    name: DevOps Professional Certificate by PagerDuty and LinkedIn
+  - name: DevOps Professional Certificate by PagerDuty and LinkedIn
     logo: /assets/images/certs/pagerduty.jpeg
     issue_date:
       month: 10
@@ -56,8 +51,7 @@ pagerduty:
     skills: ["Continuous Integration and Continuous Delivery (CI/CD)", "DevOps", "Infrastructure as Code (IaC)"]
 
 github:
-  - issuing_organization: GitHub
-    name: Career Essentials in GitHub Professional Certificate
+  - name: Career Essentials in GitHub Professional Certificate
     logo: /assets/images/certs/github.jpeg
     issue_date:
       month: 9
@@ -67,8 +61,7 @@ github:
     skills: ["GitHub"]
 
 udemy:
-  - issuing_organization: Udemy
-    name: AWS Solutions Architect Associate Bootcamp 2026
+  - name: AWS Solutions Architect Associate Bootcamp 2026
     logo: /assets/images/certs/udemy.svg
     issue_date:
       month: 10
@@ -77,8 +70,7 @@ udemy:
     credential_url: https://www.udemy.com/certificate/UC-3413b2e0-5c10-4877-9745-672c78795399/
     skills: ["AWS", "Cloud Computing"]
 
-  - issuing_organization: Udemy
-    name: "[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 2026"
+  - name: "[NEW] Ultimate AWS Certified Cloud Practitioner CLF-C02 2026"
     logo: /assets/images/certs/udemy.svg
     issue_date:
       month: 6
@@ -88,8 +80,7 @@ udemy:
     skills: ["AWS", "Cloud Computing"]
 
 tutorialsdojo:
-  - issuing_organization: Turorials Dojo
-    name: AWS Certified Cloud Practitioner CLF-C02 Video Course 2026
+  - name: AWS Certified Cloud Practitioner CLF-C02 Video Course 2026
     logo: /assets/images/certs/tutorialsdojo.png
     issue_date:
       month: 7
@@ -98,8 +89,7 @@ tutorialsdojo:
     skills: ["AWS", "Cloud Computing"]
 
 datacamp_professional:
-  - issuing_organization: Datacamp
-    name: SQL Associate
+  - name: SQL Associate
     logo: /assets/images/certs/datacamp.jpeg
     issue_date:
       month: 10
@@ -109,8 +99,7 @@ datacamp_professional:
     skills: ["SQL", "PostgreSQL"]
 
 datacamp_completion:
-  - issuing_organization: Datacamp
-    name: Associate Data Engineer in SQL
+  - name: Associate Data Engineer in SQL
     logo: /assets/images/certs/datacamp.jpeg
     issue_date:
       month: 8
@@ -119,8 +108,7 @@ datacamp_completion:
     credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/062b03c97b75620c377dc9c042e76a245f61d6d3
     skills: ["Data Engineering", "SQL", "Snowflake"]
 
-  - issuing_organization: Datacamp
-    name: SQL Fundamentals
+  - name: SQL Fundamentals
     logo: /assets/images/certs/datacamp.jpeg
     issue_date:
       month: 10
@@ -129,8 +117,7 @@ datacamp_completion:
     credential_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/1d82144ab051823675a738f4b47c21ada775cdb4
     skills: ["SQL", "PostgreSQL"]
 
-  - issuing_organization: Datacamp
-    name: SQL for Database Administrators
+  - name: SQL for Database Administrators
     logo: /assets/images/certs/datacamp.jpeg
     issue_date:
       month: 10
@@ -140,8 +127,7 @@ datacamp_completion:
     skills: ["SQL", "PostgreSQL"]
 
 linkedin:
-  - issuing_organization: LinkedIn Learning
-    name: Google Cloud Digital Leader Cert Prep
+  - name: Google Cloud Digital Leader Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 10
@@ -151,8 +137,7 @@ linkedin:
     skills: ["Digital Transformation", "Google Cloud Platform (GCP)"]
     subcategory: Cloud Computing
 
-  - issuing_organization: LinkedIn Learning
-    name: AWS Certified Solutions Architect - Associate (SAA-C03) Cert Prep
+  - name: AWS Certified Solutions Architect - Associate (SAA-C03) Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 10
@@ -162,8 +147,7 @@ linkedin:
     skills: ["Cloud Services", "Amazon Web Services (AWS)", "Cloud-Native Architecture"]
     subcategory: Cloud Computing
 
-  - issuing_organization: LinkedIn Learning
-    name: AWS Certified AI Practitioner (AIF-C01) Cert Prep
+  - name: AWS Certified AI Practitioner (AIF-C01) Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 10
@@ -173,8 +157,7 @@ linkedin:
     skills: ["Artificial Intelligence (AI)", "Generative AI", "Amazon Web Services (AWS)"]
     subcategory: Cloud Computing
 
-  - issuing_organization: LinkedIn Learning
-    name: Kubernetes and Cloud Native Associate (KCNA) Cert Prep
+  - name: Kubernetes and Cloud Native Associate (KCNA) Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -184,8 +167,7 @@ linkedin:
     skills: ["Kubernetes"]
     subcategory: Kubernetes
 
-  - issuing_organization: LinkedIn Learning
-    name: Kubernetes and Cloud Native Security Associate (KCSA) Cert Prep
+  - name: Kubernetes and Cloud Native Security Associate (KCSA) Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -195,8 +177,7 @@ linkedin:
     skills: ["Kubernetes", "DevSecOps", "Cloud Security"]
     subcategory: Kubernetes
 
-  - issuing_organization: LinkedIn Learning
-    name: Getting Started with Kubernetes
+  - name: Getting Started with Kubernetes
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -206,8 +187,7 @@ linkedin:
     skills: ["Kubernetes"]
     subcategory: Kubernetes
 
-  - issuing_organization: LinkedIn Learning
-    name: Getting Started with DevOps
+  - name: Getting Started with DevOps
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -217,8 +197,7 @@ linkedin:
     skills: ["DevOps"]
     subcategory: DevOps
 
-  - issuing_organization: LinkedIn Learning
-    name: Learning Terraform
+  - name: Learning Terraform
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -228,8 +207,7 @@ linkedin:
     skills: ["Terraform"]
     subcategory: Terraform
 
-  - issuing_organization: LinkedIn Learning
-    name: Learning Ansible
+  - name: Learning Ansible
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -239,8 +217,7 @@ linkedin:
     skills: ["Ansible", "Configuration Management"]
     subcategory: Ansible
 
-  - issuing_organization: LinkedIn Learning
-    name: Docker Essential Training
+  - name: Docker Essential Training
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -250,8 +227,7 @@ linkedin:
     skills: ["Containerization", "Docker Products"]
     subcategory: Docker
 
-  - issuing_organization: LinkedIn Learning
-    name: Prepare for the GitHub Foundations Certification
+  - name: Prepare for the GitHub Foundations Certification
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -261,8 +237,7 @@ linkedin:
     skills: ["GitHub", "GitHub Copilot", "Codespaces"]
     subcategory: GitHub
 
-  - issuing_organization: LinkedIn Learning
-    name: Cisco Certified Support Technician (CCST) Networking (100-150) Cert Prep
+  - name: Cisco Certified Support Technician (CCST) Networking (100-150) Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 9
@@ -272,8 +247,7 @@ linkedin:
     skills: ["Network Administration", "Cisco Networking"]
     subcategory: Cisco
 
-  - issuing_organization: LinkedIn Learning
-    name: Cisco Certified Network Associate (CCNA) v1.1 (200-301) Cert Prep
+  - name: Cisco Certified Network Associate (CCNA) v1.1 (200-301) Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 10
@@ -283,8 +257,7 @@ linkedin:
     skills: ["Cisco Routers", "Network Security", "Cisco IOS"]
     subcategory: Cisco
 
-  - issuing_organization: LinkedIn Learning
-    name: LPI Linux Essentials (010-160) Cert Prep
+  - name: LPI Linux Essentials (010-160) Cert Prep
     logo: /assets/images/certs/linkedin.jpeg
     issue_date:
       month: 10
