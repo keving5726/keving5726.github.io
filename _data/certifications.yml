@@ -89,6 +89,16 @@ tutorialsdojo:
     skills: ["AWS", "Cloud Computing"]
 
 datacamp_professional:
+  - issuing_organization: Datacamp
+    name: Associate Data Engineer
+    logo: /assets/images/certs/datacamp.jpeg
+    issue_date:
+      month: 11
+      year: 2026
+    credential_id: DEA0019440773632
+    credential_url: https://www.datacamp.com/certificate/DEA0019440773632
+    skills: ["Data Engineering", "SQL", "PostgreSQL", "Snowflake"]
+
   - name: SQL Associate
     logo: /assets/images/certs/datacamp.jpeg
     issue_date:
